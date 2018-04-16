@@ -1,0 +1,81 @@
+
+#wrapper {
+  background-color: #478787;  
+  width: 100%;
+  min-height: 100%;
+  position: fixed;
+}
+
+.box {
+width: 35%;
+/* height: 15%; */
+background-color: #fff;
+border-radius: 10px;
+margin: 0 auto;
+margin-top: 250px;
+}
+.invisible-box {
+  padding: 30px;
+}
+.quote-author {
+/* background-color: beige; */
+padding: 20px 5px 20px 5px;
+
+}
+#quote {
+  font-size: 30px;
+  color: #478787;
+}
+
+#author {
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #478787;
+}
+
+.social-icons {
+display: inline-block;
+}
+
+.icons {
+  color: #478787;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.new-quote-button {
+  /* display: inline-block; */
+  float: right;
+}
+
+.click-button {
+  background-color: #478787;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 0;
+  outline: none;
+}
+.click-button:hover {
+  opacity: 0.8;
+}
+.bottom {
+ margin-top: 10px;
+ color: #fff;
+}
+
+/* colors change slowly */
+.backgroundColor {
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+.changedColor {
+  -webkit-transition: color 1s ease-out;
+  -moz-transition: color 1s ease-out;
+  -o-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+}
+
