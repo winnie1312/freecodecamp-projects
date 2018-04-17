@@ -8,20 +8,20 @@
 
 .box {
 width: 35%;
-/* height: 15%; */
 background-color: #fff;
 border-radius: 10px;
 margin: 0 auto;
 margin-top: 250px;
 }
+
 .invisible-box {
   padding: 30px;
 }
-.quote-author {
-/* background-color: beige; */
-padding: 20px 5px 20px 5px;
 
+.quote-author {
+padding: 20px 5px 20px 5px;
 }
+
 #quote {
   font-size: 30px;
   color: #478787;
@@ -31,6 +31,8 @@ padding: 20px 5px 20px 5px;
   margin-right: 20px;
   margin-top: 20px;
   color: #478787;
+  font-style: italic;
+  font-size: 16px;
 }
 
 .social-icons {
@@ -44,7 +46,6 @@ display: inline-block;
 }
 
 .new-quote-button {
-  /* display: inline-block; */
   float: right;
 }
 
@@ -57,9 +58,11 @@ display: inline-block;
   margin-bottom: 0;
   outline: none;
 }
+
 .click-button:hover {
   opacity: 0.8;
 }
+
 .bottom {
  margin-top: 10px;
  color: #fff;

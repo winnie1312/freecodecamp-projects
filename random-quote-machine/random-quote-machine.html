@@ -11,7 +11,6 @@
   <script src="./random-quote-machine.js"/></script>
   <!--icon fontawesome link-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  
 </head>
 <body>
   <div id="wrapper" class="container-fluid backgroundColor">
@@ -19,17 +18,22 @@
       <div class= "invisible-box">
         <div class ="quote-author text-center">
           <blockquote class="blockquote-reverse">
-            <p id="quote" class="changedColor">
-              For every complex problem 
-              there is an answer that is clear, simple, and wrong.
-            </p>
-            <footer id="author" class="changedColor">MinHo Ko</footer>  
+            <p id="quote" class="changedColor">A man who dares to waste one hour of time has not discovered the value of life.</p>
+            <footer id="author" class="changedColor">Charles Darwin</footer>  
           </blockquote>
         </div>
         <div>
           <div class="social-icons">
-            <a href="#"><i class="fa fa-twitter-square fa-3x icons changedColor"></i></a>
-            <a href="#"><i class="fa fa-facebook-square fa-3x icons changedColor"></i></a>
+            <a id="twitter-button" target="_blank">
+              <button type="button">
+                <i class="fa fa-twitter-square fa-3x icons changedColor"></i>
+              </button>
+            </a>
+            <a id="facebook-button" target="_blank">
+              <button>
+                <i class="fa fa-facebook-square fa-3x icons changedColor"></i>
+              </button>
+            </a>
           </div>
           <div class="new-quote-button">
               <button id="newQuote" class="click-button backgroundColor" type="button">New Quote</button>
@@ -39,7 +43,5 @@
     </div>
     <p class="text-center bottom">Coded by Winnie with <i class="fa fa-coffee"></i> 
     and <i class="fa fa-music"></i></p>
-
   </div>
-  
 </body>
