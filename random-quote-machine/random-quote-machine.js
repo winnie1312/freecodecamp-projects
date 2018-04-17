@@ -1,12 +1,9 @@
 $(document).ready(function() {
   let url = "https://api.forismatic.com/api/1.0/?method=getQuote&key=XXXXX&format=jsonp&jsonp=?&lang=en";
   let getQuote = function(json) {
-    // let textQ = json.textQuote;
     $("#quote").html(json.quoteText);
-
-    // let authorQ = json.authorQuote;
     if (json.quoteAuthor === "") {
-      json.quoteAuthor = "Unknown"
+      json.quoteAuthor = "Unknown";
     };
     $("#author").html(json.quoteAuthor);
   };
