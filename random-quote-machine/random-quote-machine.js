@@ -39,9 +39,6 @@ $(document).ready(function() {
   $("#twitter-button").on("click", function() {
     window.open("https://twitter.com/intent/tweet?text=" + $("#quote").text() + " By " + $("#author").text() +".");
   })
-
-  
-  
 });
 
 

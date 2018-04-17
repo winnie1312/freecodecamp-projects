@@ -40,9 +40,20 @@ display: inline-block;
 }
 
 .icons {
-  color: #478787;
-  margin-left: 15px;
-  margin-top: 5px;
+  color: #fff;
+  
+
+}
+
+.tweet-button {
+  border: none;
+  outline: none;
+  background-color: #478787;
+  border-radius: 5px;
+  padding: 8px 10px;
+}
+.tweet-button:hover {
+  opacity: 0.8;
 }
 
 .new-quote-button {
@@ -53,7 +64,7 @@ display: inline-block;
   background-color: #478787;
   color: #fff;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border: none;
   margin-bottom: 0;
   outline: none;
@@ -82,3 +93,10 @@ display: inline-block;
   transition: color 1s ease-out;
 }
 
+#winnie {
+  color: #fff;
+  text-decoration: none;
+}
+#winnie:hover {
+  opacity: 0.8;
+}
