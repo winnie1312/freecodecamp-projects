@@ -1,15 +1,19 @@
 
 .whole-page {
   margin-top: 50px;
+  background: linear-gradient(to right, #263B96, #2D2456, #C19FAF, #c82c89);
+  /* background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);   */
 }
 
 /** feature area **/
 main header {
-  background-color: #f2f2f2;
-  width: 70%;
+  background-color: #fff;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
-  margin-top: -20px;
+  margin-top: 50px ;
+  z-index: 5;
+  border-radius: 15px;
 }
 
 @media (min-width: 1023px) {
@@ -20,19 +24,32 @@ main header {
 
 #feature-area {
  display: inline-block;
- margin-right: 30px;
+ margin-right: 10px;
 }
 #description {
   font-size: 17px;
   text-align: right;
+  color: #c82c89;
+}
+.dark-title {
+  font-size: 23px;
+  font-weight: bold;
+  font-style: italic;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+#avatar {
+  display: inline-block;
+}
 main header img {
   max-width: 30%;
   max-height: 30%;
-  width: 250px;
+  width: 150px;
   border-radius: 50%;
-  /* display: inline-block; */
+  display: inline-block;
   
 }
 
@@ -76,23 +93,25 @@ main header img {
 #h3 {
   padding-top: 30px;
   text-transform: capitalize;
+  color: #fff;
 }
 
 .hr {
-  border-top: solid 5px;
+  border-top: solid 5px #fff;
   text-align: center; 
   max-width: 500px;
+
 }
 
 /**porfolio**/
 #porfolio {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   margin-top: -20px;
-  background-color: #cacaca;
+  /* background-color: #fff; */
 }
 
-#porfolio .grid {
+#porfolio-list {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
@@ -100,22 +119,28 @@ main header img {
   -webkit-flex-flow: row wrap;
   text-align: center; 
   margin: 0 auto;
+  padding-left: 0;
 }
 
-#porfolio .grid li {
-  
+
+#porfolio-list li {
   margin: 0 auto;
-  /* margin: 20px; */
 }
 
-.po{
+.grid {
+  /* background-color: aqua; */
+  padding: 15px;
+
+}
+
+.po {
   width: 350px;
   height: 200px;
+  border: 1px solid #333;
+  border-radius: 15px;
+  /* z-index: 1; */
 }
 
-/* .row {
-  width: 70%;
-} */
 
 /* .porfolio-item {
   padding: 0;
@@ -154,7 +179,7 @@ main header img {
 } */
 
 .footer {
-  width: 800px;
+  width: 60%;
   margin: 30px auto 0 auto;
   padding-top: 10px;
   border: 1px solid #cacaca;

@@ -2,7 +2,7 @@
   <head>
     <title>Winnie Phan</title>
     <!--css link here-->
-    <link rel="stylesheet" type="text/css" href="./winnie-porfolio.css" >
+    <link rel="stylesheet" type="text/css" href="./style.css" >
     <!--bootstrap link here-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.7/jquery.min.js"></script>
@@ -42,13 +42,19 @@
         <header>
           <div id="feature-area">
             <p id="description">
-              Front-end Developer, User Experience Designer.
-            </br>Competences: HTML5, CSS3, Jquery, Bootstrap, Javascript.
-            </br>Tools and Expertise: Git, Responsive Web Design, Agile Mothodologies.
-            </br> Minimalist, Zen lifestyle.
+              <span class="dark-title">Front-end Developer,</span>
+            </br><span class="dark-title">User Experience Designer.</span>
+            </br><span class="bold">Competences: </span>
+            </br>HTML5, CSS3, Jquery, Bootstrap, Javascript.
+            </br><span class="bold">Tools and Expertise: </span>
+            </br>Git, Responsive Web Design, Agile Mothodologies.
+            </br><span class="bold">Minimalist, Zen lifestyle.</span>
             </p>
           </div>
-          <img src="./avatar.png" alt="Winnie Phan">
+          <div id="avatar">
+            <img src="./avatar.png" alt="Winnie Phan">
+          </div>
+          
         </header>
 
 
@@ -155,7 +161,8 @@
       <div id="porfolio">
           <h3 id="h3" class="text-center">Below you will see some of my recent works</h3>
           <hr class="hr">
-          <ul class="grid">
+          <div class="grid">
+            <ul id="porfolio-list">
             <li>
               <a href="#" target="_blank" class="project-link">
                   <img class="po" src="./witch.jpg" alt="TWITCH.tv-API-project">
@@ -206,6 +213,8 @@
                 </a>
             </li>
           </ul>
+          </div>
+          
       </div>
 
 
